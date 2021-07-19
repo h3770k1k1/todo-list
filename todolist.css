@@ -1,0 +1,159 @@
+    body {
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    
+    #listcontainer {
+        margin-top: 0vw;
+        width: 100vw;
+        height: fit-content;
+        background-color: #00acee;
+    }
+    
+    #titlecontainer {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #title {
+        font-size: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-family: Georgia, serif;
+        font-size: 40px;
+        letter-spacing: 4.6px;
+        word-spacing: 6px;
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none solid rgb(68, 68, 68);
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: capitalize;
+    }
+    
+    #task-input {
+        width: 40vw;
+        height: 3rem;
+        margin-right: 0px;
+        font-size: 1.4rem;
+        border: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    #task-input:focus {
+        outline: none;
+    }
+    
+    #inputcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    #add-button {
+        margin-left: 3px;
+        height: 3.15rem;
+        width: fit-content;
+        color: #00acee;
+        font-size: 15px;
+        border: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left-color: #00acee;
+        border-left-width: 3px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        padding-bottom: 3rem;
+        height: fit-content;
+    }
+    
+    li {
+        background-color: #ffffff;
+        height: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1vh;
+        margin-top: 1rem;
+        box-shadow: rgb(25, 29, 29);
+        font-size: 1.5rem;
+        width: 70vw;
+        padding: 0;
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    #deletebutton {
+        position: absolute;
+        margin-left: 65vw;
+        margin-top: -3.3vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 42px;
+        color: #00acee;
+        font-size: 15px;
+        background-size: 10px 20px;
+        border-width: 3px;
+        border-color: #00acee;
+        border: solid;
+    }
+    
+    #editbutton {
+        position: absolute;
+        margin-left: 67vw;
+        margin-top: -3.3vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 42px;
+        color: #00acee;
+        font-size: 15px;
+        background-size: 10px 20px;
+        border-width: 3px;
+        border-color: #00acee;
+        border: solid;
+    }
+    
+    input[type=checkbox] {
+        position: absolute;
+        margin-top: -3vh;
+        margin-left: -3vw;
+        height: 1.5rem;
+        width: 1.5rem;
+        border-width: 3px;
+        border-color: #00acee;
+        color: #00acee;
+        background-color: #00acee;
+    }
+    
+    #datediv {
+        position: absolute;
+        margin-top: 1rem;
+        font-size: 12px;
+        color: white;
+    }
+    
+    #finished-task-list li>button {
+        display: none;
+    }
+    
+    #finished-task-list li>#datediv {
+        display: none;
+    }
+    
+    #finished-task-list li {
+        color: rgba(0, 0, 0, 0.68);
+        text-decoration: line-through;
+    }
